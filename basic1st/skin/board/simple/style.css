@@ -1,0 +1,695 @@
+/* list.skin.php */
+
+/* 분류 */
+#list-skin > ul{
+	margin-bottom: 50px;
+}
+#list-skin > ul:after{
+	display: block;
+	clear: both;
+	content: '';
+}
+#list-skin > ul > li{
+	float: left;
+	width: 12.5%;
+}
+#list-skin > ul > li > a{
+	display: block;
+	overflow: hidden;
+	margin: 1px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#list-skin > ul > li > a:hover,
+#list-skin > ul > li.on > a{
+	border: 1px solid #333333;
+	background-color: #333333;
+	color: #FFFFFF;
+}
+#list-skin > ul > li > a:hover{
+	transition: all 0.2s linear;
+}
+
+
+/* 총계 */
+#list-skin > h1{
+	position: relative;
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: normal;
+}
+#list-skin > h1 > a{
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 35px;
+}
+#list-skin > h1 > a:first-child{
+	right: 0px;
+}
+#list-skin > h1 > a:hover{
+	color: #0066CC;
+}
+
+/* 목록 */
+#list-skin > form > table{
+	width: 100%;
+	border-collapse: collapse;
+	border-top: 1px solid #E1E1E1;
+}
+#list-skin > form > table > thead > tr > th{
+	padding: 10px 0px;
+	border-bottom: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	line-height: 30px;
+}
+#list-skin > form > table > thead > tr > th.checkbox{
+	width: 50px;
+}
+#list-skin > form > table > thead > tr > th.checkbox > input{
+	width: 17px;
+	height: 17px;
+	vertical-align: -4px;
+	cursor: pointer;
+	outline: none;
+}
+#list-skin > form > table > thead > tr > th.number{
+	width: 50px;
+}
+#list-skin > form > table > thead > tr > th.category{
+	width: 150px;
+}
+#list-skin > form > table > thead > tr > th.name{
+	width: 150px;
+}
+#list-skin > form > table > thead > tr > th.datetime{
+	width: 100px;
+}
+#list-skin > form > table > thead > tr > th.hit{
+	width: 50px;
+}
+#list-skin > form > table > tbody > tr > td{
+	padding: 10px 0px;
+	border-bottom: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+}
+#list-skin > form > table > tbody > tr > td.empty{
+	color: #999999;
+	line-height: 300px;
+}
+#list-skin > form > table > tbody > tr > td.checkbox{
+	width: 50px;
+}
+#list-skin > form > table > tbody > tr > td.checkbox > input{
+	width: 17px;
+	height: 17px;
+	vertical-align: -4px;
+	cursor: pointer;
+	outline: none;
+}
+#list-skin > form > table > tbody > tr > td.number{
+	width: 50px;
+	color: #999999;
+}
+#list-skin > form > table > tbody > tr > td.number > strong{
+	color: #000000;
+}
+#list-skin > form > table > tbody > tr > td.category{
+	width: 150px;
+}
+#list-skin > form > table > tbody > tr > td.subject{
+	padding: 10px;
+	text-align: left;
+}
+#list-skin > form > table > tbody > tr > td.subject > img{
+	margin-right: 10px;
+	border: 1px solid #E1E1E1;
+}
+#list-skin > form > table > tbody > tr > td.subject > strong{
+	font-size: 18px;
+	font-weight: normal;
+}
+#list-skin > form > table > tbody > tr > td.subject > a:hover{
+	color: #0066CC;
+}
+#list-skin > form > table > tbody > tr.notice > td.subject > a{
+	font-weight: bold;
+}
+#list-skin > form > table > tbody > tr > td.subject > a > i{
+	vertical-align: -2px;
+}
+
+#list-skin > form > table > tbody > tr > td.subject > span{
+	margin-left: 10px;
+	font-size: 12px;
+}
+#list-skin > form > table > tbody > tr > td.subject > span > i{
+	vertical-align: 1px;
+}
+#list-skin > form > table > tbody > tr > td.name{
+	width: 100px;
+	color: #999999;
+}
+#list-skin > form > table > tbody > tr > td.name > span{
+	color: #999999;
+}
+#list-skin > form > table > tbody > tr > td.datetime{
+	width: 100px;
+	color: #999999;
+}
+#list-skin > form > table > tbody > tr > td.hit{
+	width: 50px;
+	color: #999999;
+}
+
+/* 버튼 */
+#list-skin > form > div:after{
+	display: block;
+	clear: both;
+	content: '';
+}
+#list-skin > form > div > p{
+	width: 50%;
+	margin-top: 10px;
+}
+#list-skin > form > div > p.left{
+	float: left;
+}
+#list-skin > form > div > p.right{
+	float: right;
+	text-align: right;
+}
+#list-skin > form > div > p > button{
+	width: 100px;
+	height: 50px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	outline: none;
+}
+#list-skin > form > div > p > button:hover{
+	border: 1px solid #333333;
+	background-color: #333333;
+	color: #FFFFFF;
+	transition: all 0.2s linear;
+}
+#list-skin > form > div > p > a{
+	display: inline-block;
+	width: 100px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	line-height: 48px;
+	text-align: center;
+}
+#list-skin > form > div > p > a:hover{
+	border: 1px solid #333333;
+	background-color: #333333;
+	color: #FFFFFF;
+	transition: all 0.2s linear;
+}
+
+/* 페이지 */
+#list-skin > nav{
+	margin: 50px 0px 0px 0px;
+}
+#list-skin > nav > span > a{
+	min-width: 50px;
+	height: 50px;
+	border: 1px solid #E1E1E1;
+	border-radius: 0px;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	line-height: 50px;
+}
+#list-skin > nav > span > a:hover{
+	border: 1px solid #333333;
+	background-color: #333333;
+	color: #FFFFFF;
+	transition: all 0.2s linear;
+}
+#list-skin > nav > span > strong{
+	min-width: 50px;
+	height: 50px;
+	border: 1px solid #333333;
+	border-radius: 0px;
+	background-color: #333333;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 50px;
+}
+
+
+/* 검색 */
+#list-skin > form > p{
+	margin-top: 50px;
+	text-align: center;
+}
+#list-skin > form > p > select{
+	width: 150px;
+	height: 50px;
+	padding-left: 10px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	outline: none;
+}
+#list-skin > form > p > input{
+	width: 300px;
+	height: 50px;
+	padding: 0px 10px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	background-image: none !important;
+	font-size: 14px;
+	outline: none;
+}
+#list-skin > form > p > button{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	outline: none;
+}
+#list-skin > form > p > button:hover{
+	border: 1px solid #333333;
+	background-color: #333333;
+	color: #FFFFFF;
+	transition: all 0.2s linear;
+}
+#list-skin > form > p > button > i{
+	color: #AAAAAA;
+}
+#list-skin > form > p > button:hover > i{
+	color: #FFFFFF;
+}
+
+/* view.skin.php */
+
+/* 정보 */
+#view-skin > h1{
+	padding: 20px;
+	border-top: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+}
+#view-skin > h2{
+	position: relative;
+	padding: 20px;
+	border-top: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	color: #999999;
+	font-size: 14px;
+	font-weight: normal;
+}
+#view-skin > h2 > span{
+	color: #999999;
+}
+#view-skin > h2 > i{
+	margin-left: 20px;
+}
+#view-skin > h2 > i:first-child{
+	margin-left: 0px;
+}
+#view-skin > h2 > strong{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+#view-skin > div{
+	min-height: 500px;
+	padding: 20px;
+	border-top: 1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+}
+#view-skin > div *{
+	font-size: 14px;
+}
+#view-skin > div > p.thumb{
+	margin-bottom: 20px;
+	text-align: center;
+}
+#view-skin > h3{
+	padding: 20px;
+	border-bottom: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	color: #999999;
+	font-size: 14px;
+	font-weight: normal;
+}
+#view-skin > h3 > a{
+	color: #999999;
+}
+#view-skin > h3 > a:hover{
+	color: #0066CC;
+}
+
+/* 버튼 */
+#view-skin > p{
+	margin-top: 10px;
+}
+#view-skin > p:after{
+	display: block;
+	clear: both;
+	content: '';
+}
+#view-skin > p > a{
+	display: inline-block;
+	width: 100px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	line-height: 48px;
+	text-align: center;
+}
+#view-skin > p > a:hover{
+	border: 1px solid #333333;
+	background-color: #333333;
+	color: #FFFFFF;
+	transition: all 0.2s linear;
+}
+#view-skin > p > a.left{
+	float: left;
+	margin-right: 5px;
+}
+#view-skin > p > a.right{
+	float: right;
+	margin-left: 5px;
+}
+
+/* view_comment.skin.php */
+
+/* 타이틀 */
+#view-comment-skin{
+	margin-top: 50px;
+}
+#view-comment-skin > h1{
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: normal;
+}
+#view-comment-skin > h1 > span{
+	margin-left: 10px;
+	color: #999999;
+	font-size: 12px;
+}
+
+/* 폼 */
+#view-comment-skin form > p{
+	margin-top: 10px;
+}
+#view-comment-skin form > p:first-child{
+	margin-top: 0px;
+}
+#view-comment-skin form > p:after{
+	display: block;
+	clear: both;
+	content: '';
+}
+#view-comment-skin form > p > textarea{
+	width: 100%;
+	height: 150px;
+	padding: 10px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	outline: none;
+}
+#view-comment-skin form > p > label{
+	font-size: 14px;
+	cursor: pointer;
+}
+#view-comment-skin form > p > label > input{
+	width: 17px;
+	height: 17px;
+	vertical-align: -4px;
+}
+#view-comment-skin form > p > button{
+	float: right;
+	width: 100px;
+	height: 50px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	outline: none;
+}
+#view-comment-skin form > p > button:hover{
+	border: 1px solid #333333;
+	background-color: #333333;
+	color: #FFFFFF;
+	transition: all 0.2s linear;
+}
+#view-comment-skin form > div > input{
+	width: 130px;
+	height: 50px;
+	padding: 0px 10px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	background-image: none !important;
+	font-size: 14px;
+	outline: none;
+}
+#view-comment-skin form > div > fieldset{
+	display: inline;
+}
+
+/* 자동등록방지 */
+#captcha #captcha_img{
+	height: 50px;
+	border: 1px solid #E1E1E1;
+}
+#captcha #captcha_key{
+	width: 130px;
+	height: 50px;
+	margin-left: 5px;
+	padding: 0px 10px;
+	border: 1px solid #E1E1E1;
+	border-radius: 0px;
+	background-image: none !important;
+	font-size: 14px;
+	font-weight: normal;
+}
+#captcha #captcha_mp3{
+	width: 50px;
+	height: 50px;
+	border: 5px solid #C9C9C9;
+	border-radius: 0px;
+}
+#captcha #captcha_reload{
+	width: 50px;
+	height: 50px;
+	border: 5px solid #C9C9C9;
+	border-radius: 0px;
+}
+#captcha #captcha_info{
+	display: inline;
+	margin-left: 10px;
+	color: #999999;
+	font-size: 12px;
+	letter-spacing: 0
+}
+
+/* 목록 */
+#view-comment-skin > ul > li{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+}
+#view-comment-skin > ul > li:first-child{
+	margin-top: 10px;
+	border-top: 1px solid #E1E1E1;
+}
+#view-comment-skin > ul > li > h1{
+	padding: 10px;
+	color: #999999;
+	font-size: 14px;
+	font-weight: normal;
+}
+#view-comment-skin > ul > li > h1 > span{
+	color: #999999;
+}
+#view-comment-skin > ul > li > h1 > i{
+	margin-left: 10px;
+}
+#view-comment-skin > ul > li > h1 > i:first-child{
+	margin-left: 0px;
+}
+#view-comment-skin > ul > li > h2{
+	padding: 0px 10px;
+	font-size: 14px;
+	font-weight: normal;
+}
+#view-comment-skin > ul > li > p{
+	padding: 10px 10px 0px 10px;
+	text-align: right;
+}
+#view-comment-skin > ul > li > p > a{
+	color: #999999;
+}
+#view-comment-skin > ul > li > p > span{
+	margin-left: 10px;
+	color: #999999;
+	cursor: pointer;
+}
+#view-comment-skin > ul > li > div{
+	padding: 10px 10px 0px 10px;
+}
+
+/* write.skin.php */
+
+/* 필드 */
+#write-skin > div{
+	position: relative;
+	margin-top: 20px;
+}
+#write-skin > div > textarea{
+	width: 100%;
+	height: 500px;
+	padding: 10px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	outline: none;
+}
+#write-skin > div > span{
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	font-size: 14px;
+}
+#write-skin > div > p{
+	margin-left: 120px;
+}
+#write-skin > div > p.right{
+	text-align: right;
+}
+#write-skin > div > p > select{
+	min-width: 300px;
+	height: 50px;
+	padding-left: 10px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	outline: none;
+}
+#write-skin > div > p > input[type="text"],
+#write-skin > div > p > input[type="password"]{
+	min-width: 300px;
+	height: 50px;
+	padding: 0px 10px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	background-image: none !important;
+	font-size: 14px;
+	outline: none;
+}
+#write-skin > div > p > input[type="file"]{
+	height: 50px;
+	font-size: 14px;
+	outline: none;
+}
+#write-skin > div > p > input.full{
+	width: 100%;
+}
+#write-skin > div > p > label{
+	margin-left: 20px;
+	font-size: 14px;
+	cursor: pointer;
+}
+#write-skin > div > p > label:first-child{
+	margin-left: 0px;
+}
+#write-skin > div > p > label > input{
+	width: 17px;
+	height: 17px;
+	vertical-align: -4px;
+}
+#write-skin > div > fieldset{
+	margin-left: 120px;
+}
+
+/* 자동등록방지 */
+#captcha #captcha_img{
+	height: 50px;
+	border: 1px solid #E1E1E1;
+}
+#captcha #captcha_key{
+	width: 130px;
+	height: 50px;
+	margin-left: 5px;
+	padding: 0px 10px;
+	border: 1px solid #E1E1E1;
+	border-radius: 0px;
+	background-image: none !important;
+	font-size: 14px;
+	font-weight: normal;
+}
+#captcha #captcha_mp3{
+	width: 50px;
+	height: 50px;
+	border: 5px solid #C9C9C9;
+	border-radius: 0px;
+	outline: none;
+}
+#captcha #captcha_reload{
+	width: 50px;
+	height: 50px;
+	border: 5px solid #C9C9C9;
+	border-radius: 0px;
+	outline: none;
+}
+#captcha #captcha_info{
+	margin-top: 10px;
+	color: #999999;
+	font-size: 12px;
+	letter-spacing: 0
+}
+
+/* 버튼 */
+#write-skin > p{
+	margin-top: 50px;
+	text-align: center;
+}
+#write-skin > p > button{
+	width: 100px;
+	height: 50px;
+	margin: 0px 5px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	outline: none;
+}
+#write-skin > p > button:hover{
+	border: 1px solid #333333;
+	background-color: #333333;
+	color: #FFFFFF;
+	transition: all 0.2s linear;
+}
+#write-skin > p > a{
+	display: inline-block;
+	width: 100px;
+	margin: 0px 5px;
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	line-height: 48px;
+	text-align: center;
+	vertical-align: middle;
+}
+#write-skin > p > a:hover{
+	border: 1px solid #333333;
+	background-color: #333333;
+	color: #FFFFFF;
+	transition: all 0.2s linear;
+}
